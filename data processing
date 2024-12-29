@@ -1,0 +1,7 @@
+# Filter data (e.g., employees with salary greater than 60000)
+filtered_df = df.filter(df["salary"] > 60000)
+filtered_df.show()
+
+# Aggregate data (e.g., calculate average salary by department)
+aggregated_df = df.groupBy("department").agg({"salary": "avg"})
+aggregated_df.show()
