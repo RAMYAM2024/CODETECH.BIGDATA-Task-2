@@ -1,0 +1,5 @@
+# Load CSV data
+df = spark.read.csv("path/to/data.csv", header=True, inferSchema=True)
+
+# Display the data
+df.show()
