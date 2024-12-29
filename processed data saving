@@ -1,0 +1,5 @@
+# Save filtered data as CSV
+filtered_df.write.csv("path/to/output/filtered_data.csv", header=True)
+
+# Save aggregated data as JSON
+aggregated_df.write.json("path/to/output/aggregated_data.json")
